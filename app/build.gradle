@@ -32,4 +32,5 @@ dependencies {
     implementation files('libs/commons-lang-2.5.jar')
     implementation files('libs/commons-logging-1.2.jar')
     implementation files('libs/commons-collections-3.1.jar')
+    implementation 'org.litepal.android:core:1.4.1'
 }

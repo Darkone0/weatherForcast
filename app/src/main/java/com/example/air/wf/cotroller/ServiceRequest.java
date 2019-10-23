@@ -19,9 +19,19 @@ public class ServiceRequest {
     public static final String DEF_CHATSET = "UTF-8";
     public static final int DEF_CONN_TIMEOUT = 30000;
     public static final int DEF_READ_TIMEOUT = 30000;
-    public static String userAgent =  "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36";
-    private String urlStr = "https://apis.juhe.cn/simpleWeather/query?city=北京&key=78b54e7d4fc9f060348ce2976b27c8ae";
+    public String userAgent =  "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36";
+    private String urlStr;
+    private String city;
     public static int requestTimes = 0;
+
+    public ServiceRequest(){
+        city = "北京";
+        urlStr = "https://apis.juhe.cn/simpleWeather/query?key=78b54e7d4fc9f060348ce2976b27c8ae&city=北京";
+    }
+    public ServiceRequest(String city){
+        this.city = city;
+        urlStr = "https://apis.juhe.cn/simpleWeather/query?key=78b54e7d4fc9f060348ce2976b27c8ae&city="+ city;
+    }
 
     public String DataUtl() throws IOException {
         URL url = new URL(urlStr);
@@ -56,6 +66,7 @@ public class ServiceRequest {
         JSONObject result = JSONObject.fromObject(object.get("result"));
         JSONObject realtime = JSONObject.fromObject(result.get("realtime"));
         WeatherModel rs = new WeatherModel();
+        rs.setCity(city);
         rs.setTemp(realtime.getInt("temperature"));
         rs.setCurWeather(realtime.getString("info"));
         JSONObject today = JSONArray.fromObject(result.get("future")).getJSONObject(0);
@@ -70,7 +81,7 @@ public class ServiceRequest {
         Lunar l = new Lunar(cale);
         String str = cale.get(Calendar.MONTH)+1 + "月" +cale.get(Calendar.DATE)+"日";
         int time = cale.get(Calendar.HOUR_OF_DAY);
-        if (time > 19 || time < 7){
+        if (time > 17 || time < 6){
             rs.setIsDayT(0);
         }
         else

@@ -1,4 +1,4 @@
-#Tue Oct 08 00:25:14 CST 2019
+#Tue Oct 22 10:52:29 CST 2019
 base.0=/Users/air/AndroidStudioProjects/wf/app/build/intermediates/transforms/dexMerger/debug/0
 path.1=classes.dex
 renamed.1=classes2.dex

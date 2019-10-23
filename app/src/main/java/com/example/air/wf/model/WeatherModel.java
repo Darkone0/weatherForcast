@@ -1,6 +1,7 @@
 package com.example.air.wf.model;
 
 public class WeatherModel {
+    private String city;
     private String date;
     private int temp;
     private int lowest_temp;
@@ -10,6 +11,14 @@ public class WeatherModel {
     private String wid;
     private String curWeather;
     private int isDayT;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 
     public int getIsDayT() {
         return isDayT;

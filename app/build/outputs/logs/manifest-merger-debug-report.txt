@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
 MERGED from [com.zhy:percent-support-extends:1.0.1] /Users/air/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.0.1.aar/bb405cdea47214354302a8eec626ccf8/AndroidManifest.xml:2:1-16:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a370cf236166e8446201990c1ae5911a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/air/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce308461d1fbe7abf4ec701648bd1a18/AndroidManifest.xml:2:1-11:12
+MERGED from [org.litepal.android:core:1.4.1] /Users/air/.gradle/caches/transforms-1/files-1.1/core-1.4.1.aar/14a2411e9234add6aee1ec45cbdf924b/AndroidManifest.xml:2:1-16:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d22a94c554527288464244388d5bdc0b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bf33e646e773e8e1d09bb3cce85ea679/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1fb4c84377a4b7b5566d9b911d98ea48/AndroidManifest.xml:17:1-22:12
@@ -32,33 +33,35 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/air/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/air/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/fedc71576ea7b78403202cd7d95bfa20/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/air/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bbeceac46784f0377a48c8e1c3edd1db/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/04f3e38099181488d82615d7f9cf064f/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:1-25:12
 		INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:7:5-23:19
 MERGED from [com.zhy:percent-support-extends:1.0.1] /Users/air/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.0.1.aar/bb405cdea47214354302a8eec626ccf8/AndroidManifest.xml:11:5-14:19
 MERGED from [com.zhy:percent-support-extends:1.0.1] /Users/air/.gradle/caches/transforms-1/files-1.1/percent-support-extends-1.0.1.aar/bb405cdea47214354302a8eec626ccf8/AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/air/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce308461d1fbe7abf4ec701648bd1a18/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/air/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce308461d1fbe7abf4ec701648bd1a18/AndroidManifest.xml:9:5-20
+MERGED from [org.litepal.android:core:1.4.1] /Users/air/.gradle/caches/transforms-1/files-1.1/core-1.4.1.aar/14a2411e9234add6aee1ec45cbdf924b/AndroidManifest.xml:11:5-14:19
+MERGED from [org.litepal.android:core:1.4.1] /Users/air/.gradle/caches/transforms-1/files-1.1/core-1.4.1.aar/14a2411e9234add6aee1ec45cbdf924b/AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support:support-compat:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a8f5f98ab0c489a9e8eae0808e6d90/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a8f5f98ab0c489a9e8eae0808e6d90/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/53a09959605d4913d5dae1341ac5f22b/AndroidManifest.xml:22:5-23:19
@@ -66,33 +69,37 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/air/.gradle/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/34a8f5f98ab0c489a9e8eae0808e6d90/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:14:9-40
 	android:networkSecurityConfig
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:12:9-69
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:11:9-69
 activity#com.example.air.wf.MainActivity
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:13:9-19:20
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:13:19-47
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.air.wf.CityActivity
+ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml:22:19-47
 uses-sdk
 INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/air/AndroidStudioProjects/wf/app/src/main/AndroidManifest.xml
@@ -103,6 +110,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/air/.gradle/caches/
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a370cf236166e8446201990c1ae5911a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/air/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce308461d1fbe7abf4ec701648bd1a18/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/air/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ce308461d1fbe7abf4ec701648bd1a18/AndroidManifest.xml:5:5-7:41
+MERGED from [org.litepal.android:core:1.4.1] /Users/air/.gradle/caches/transforms-1/files-1.1/core-1.4.1.aar/14a2411e9234add6aee1ec45cbdf924b/AndroidManifest.xml:7:5-9:41
+MERGED from [org.litepal.android:core:1.4.1] /Users/air/.gradle/caches/transforms-1/files-1.1/core-1.4.1.aar/14a2411e9234add6aee1ec45cbdf924b/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d22a94c554527288464244388d5bdc0b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d22a94c554527288464244388d5bdc0b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/air/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/bf33e646e773e8e1d09bb3cce85ea679/AndroidManifest.xml:20:5-44
